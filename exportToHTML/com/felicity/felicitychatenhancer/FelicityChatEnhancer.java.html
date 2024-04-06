@@ -1,0 +1,43 @@
+<html>
+<head>
+<title>FelicityChatEnhancer.java</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #cf8e6d;}
+.s1 { color: #bcbec4;}
+.s2 { color: #bcbec4;}
+.s3 { color: #7a7e85;}
+.s4 { color: #6aab73;}
+</style>
+</head>
+<body bgcolor="#1e1f22">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+FelicityChatEnhancer.java</font>
+</center></td></tr></table>
+<pre><span class="s0">package </span><span class="s1">com</span><span class="s2">.</span><span class="s1">felicity</span><span class="s2">.</span><span class="s1">felicitychatenhancer</span><span class="s2">;</span>
+
+<span class="s0">import </span><span class="s1">org</span><span class="s2">.</span><span class="s1">bukkit</span><span class="s2">.</span><span class="s1">plugin</span><span class="s2">.</span><span class="s1">java</span><span class="s2">.</span><span class="s1">JavaPlugin</span><span class="s2">;</span>
+
+
+<span class="s0">public final class </span><span class="s1">FelicityChatEnhancer </span><span class="s0">extends </span><span class="s1">JavaPlugin </span><span class="s2">{</span>
+
+    <span class="s1">@Override</span>
+    <span class="s0">public void </span><span class="s1">onEnable</span><span class="s2">() {</span>
+        <span class="s3">// Plugin startup logic</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s4">&quot;FelicityChatEnhancer has been initialized.&quot;</span><span class="s2">);</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s4">&quot;Developed by APyroFox for Felicity Server Network.&quot;</span><span class="s2">);</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s4">&quot;version: &quot; </span><span class="s2">+ </span><span class="s1">getDescription</span><span class="s2">().</span><span class="s1">getVersion</span><span class="s2">());</span>
+    <span class="s2">}</span>
+
+
+    <span class="s1">@Override</span>
+    <span class="s0">public void </span><span class="s1">onDisable</span><span class="s2">() {</span>
+        <span class="s3">// Plugin shutdown logic</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s4">&quot;CAUTION: FelicityChatEnhancer has been halted.&quot;</span><span class="s2">);</span>
+    <span class="s2">}</span>
+<span class="s2">}</span>
+</pre>
+</body>
+</html>

@@ -1,0 +1,18 @@
+name: FelicityChatFilter
+version: '${project.version}'
+author: APyroFox
+description: Control your chat
+main: com.felicity.felicitychatenhancer.Main
+prefix: FelicityChatFilter
+commands:
+  filter:
+    description: Base Administrative Command
+    usage: /filter [reload]
+    aliases: /chatfilter, /filter
+    permission-message: Access Denied.
+    permission: filter.reload
+permissions:
+  filter.reload:
+    default: op
+  filter.bypass:
+    default: op
