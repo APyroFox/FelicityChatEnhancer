@@ -1,5 +1,0 @@
-output:
-  command:
-    reload: "&aChat filter reinitialized."
-  no-permission: "&cAccess Denied."
-  bad-word: "&cUse of that language is unacceptable on Felicity"
